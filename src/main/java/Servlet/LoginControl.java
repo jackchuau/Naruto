@@ -15,8 +15,7 @@ public class LoginControl{
 	public static String logIn(HttpServletRequest request) throws IOException{
 		String username = request.getParameter("username");
 		String password = request.getParameter("password");
-		System.out.println(username);
-		System.out.println(password);
+
 		if(username.equals("admin")&&password.equals("admin")) {
 			return "./index.jsp";
 		}

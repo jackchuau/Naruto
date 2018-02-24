@@ -37,12 +37,9 @@ public class Controller extends HttpServlet {
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 //		doGet(request, response);
-		String redirectPath = "";
-		if(request.getParameter("login").equals("1")) {
-			redirectPath = LoginControl.logIn(request);
-		}
+		String redirectPath = LoginControl.logIn(request);
+
 		if(!redirectPath.isEmpty()) {
-//			System.out.println("redirecting...");
 			response.sendRedirect(redirectPath);
 		}
 		else{
