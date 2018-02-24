@@ -34,5 +34,7 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.server.core.container/org.eclipse.jst.server.tomcat.runtimeTarget/Apache Tomcat v8.5"/>
+	<classpathentry kind="lib" path="/Users/jackchu/Documents/workspace/apache-tomcat-8.5.14/bin/bootstrap.jar"/>
+	<classpathentry kind="lib" path="/Users/jackchu/Documents/workspace/apache-tomcat-8.5.14/bin/postgresql-9.2-1004.jdbc4.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>
